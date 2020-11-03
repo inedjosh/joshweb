@@ -63,7 +63,7 @@
 					</div>
 					<div id="preview-shadow">
 						<h6 class="center upper">welcome to my world of tech</h6>
-						<p class="it's my world of seamless possibilities where everything is possible. </p>
+						<p class="">it's my world of seamless possibilities where everything is possible.</p>
 					</div>
 				</div>
 		
