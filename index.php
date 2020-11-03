@@ -1,10 +1,5 @@
-<?php
-
-session_start();
-
-if(isset($_SESSION['err'])){
-	$data = $_SESSION['err'];
-} 
+<?php;
+include('process.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -133,25 +128,25 @@ if(isset($_SESSION['err'])){
 			<a href=""></a>
 			<h5 class="upper center">Get In Touch</h5>
 
-			<form id="contact-form" method="POST" action="process.php">
+			<form id="contact-form" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>">
 				<a name="contact"></a>
 
 				<label>Name</label>
-				<input class="input-field" type="text" name="name" id="name">
-				<span class="red err"><?php echo isset($data['name']) ? $data['name'] : '' ?></span>
+				<input class="input-field" type="text" name="name" value="<?php echo &name ?> id="name">
+				<span class="red err"><?php echo $name_err ?></span>
 				<br>
 				<label>Subject</label>
-				<input class="input-field" type="text" name="subject" id="subject">
-				<span class="red err"><?php echo isset($data['subject']) ? $data['subject'] : '' ?></span>
+				<input class="input-field" type="text" name="subject" value="<?php echo & subject ?>  id="subject">
+				<span class="red err"><?php echo $subject_err ?></span>
 				<br>
 				<label>Email</label>
-				<input class="input-field" id="email" type="text" name="email">
-				<span class="red err"><?php echo isset($data['email']) ? $data['email'] : '' ?></span>
+				<input class="input-field" id="email" type="text" value="<?php echo &email ?>  name="email">
+				<span class="red err"><?php echo $email_err ?></span>
 				<br>
 
 				<label>Message</label>
-				<textarea class="input-field" id="msg" name="msg"></textarea>
-				<span class="red err"><?php echo isset($data['msg']) ? $data['msg'] : '' ?></span>
+				<textarea class="input-field" id="msg" value="<?php echo &msg ?>  name="msg"></textarea>
+				<span class="red err"><?php echo $msg_err ?></span>
 				<br>
 				<input id="submit-btn" type="submit" name="submit" value="Send">
 			</form>
