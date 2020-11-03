@@ -170,7 +170,7 @@ Warm regards.
 	</section> 
     <footer class="s1 footer">
         
-        <p>copyright &copy; Inedu Joshua 2020</p>
+        <p> &copy; Inedu Joshua 2020</p>
     </footer>
 	<script type="text/javascript" src="main.js"></script>
 	<script src="form.js"></script>
