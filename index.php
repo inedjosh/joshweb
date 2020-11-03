@@ -34,13 +34,13 @@ if(isset($_SESSION['err'])){
 					echo '	<div class="alert alert-div" >
 					!form was not correctly filled.	
 				</div>';
-				} else{
+				} 
                                   if(isset(&_SESSION['sent'])){
 					echo '<div class="alert1 alert-div1" >
 					message sent.	
 				</div>';
 				}
-                               }
+                               
 			?>
 		
 				<h1>Hey, I'm Inedu Joshua</h1>
