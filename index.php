@@ -18,7 +18,7 @@ if(isset($_SESSION['err'])){
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
 
     <link rel="stylesheet" href="main.css">
-
+     link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
@@ -34,11 +34,13 @@ if(isset($_SESSION['err'])){
 					echo '	<div class="alert alert-div" >
 					!form was not correctly filled.	
 				</div>';
-				} else {
+				} else{
+                                  if(isset(&_SESSION['sent'])){
 					echo '<div class="alert1 alert-div1" >
 					message sent.	
 				</div>';
 				}
+                               }
 			?>
 		
 				<h1>Hey, I'm Inedu Joshua</h1>
