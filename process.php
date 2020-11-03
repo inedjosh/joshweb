@@ -2,6 +2,10 @@
 
 session_start();
 
+$name = $subject = $email = $msg = $success = '';
+
+$name_err = $subject_err = $email_err = $msg_err = '';
+
 if(isset($_POST['submit'])){
 
     
@@ -30,9 +34,8 @@ if(isset($_POST['submit'])){
 
     if($name_err == '' and $subject_err == '' and $email_err == '' and $msg_err == '' ){
        $succes = 'Thank you for contacting me!';
-       
+       $name_err = $subject_err = $email_err = $msg_err = '';
     }else{
        $_SESSION['err'] = '!Form was not correctly filled';
-       
     }
 }
