@@ -20,7 +20,7 @@ include('process.php');
 		<div class="main-container">
 			
 			<div class="greeting-wrapper" style="position:relative;">
-			
+			<div class="alert alert-div"><?php echo isset($_SESSION['err']) ? $_SESSION['err'] : $success ; ?></div>
 		
 				<h1>Hey, I'm Inedu Joshua</h1>
 			</div>
