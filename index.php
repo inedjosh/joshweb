@@ -1,6 +1,4 @@
-<?php;
-require 'process.php';
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -128,7 +126,7 @@ require 'process.php';
 			<a href=""></a>
 			<h5 class="upper center">Get In Touch</h5>
 
-			<form id="contact-form" method="POST" action="index.php">
+			<form id="contact-form" method="POST" action="process.php">
 				<a name="contact"></a>
 
 				<label>Name</label>
