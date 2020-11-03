@@ -4,10 +4,7 @@ session_start();
 
 if(isset($_SESSION['err'])){
 	$data = $_SESSION['err'];
-} else{
-	session_unset();
-}
-
+} 
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,20 +25,7 @@ if(isset($_SESSION['err'])){
 		<div class="main-container">
 			
 			<div class="greeting-wrapper" style="position:relative;">
-			<?php
-				if(isset($_SESSION['err'])){
-					session_unset();
-					echo '	<div class="alert alert-div" >
-					!form was not correctly filled.	
-				</div>';
-				} 
-                                  if(isset(&_SESSION['sent'])){
-					echo '<div class="alert1 alert-div1" >
-					message sent.	
-				</div>';
-				}
-                               
-			?>
+			
 		
 				<h1>Hey, I'm Inedu Joshua</h1>
 			</div>
