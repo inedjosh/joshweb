@@ -107,9 +107,9 @@
 				<div class="social-links ">
 				<h6 class="upper center">About me</h6>
 					<p>
-                                          Welcome to my profile, it's indeed a great privilege to have you here out of the many others you could have visited.
+                                          Welcome to my portfolio, it's indeed a great privilege to have you here out of the many others you could have visited.
 
-I am Inedu Joshua, am a full stack web developer, I develop with HTML CSS JAVASCRIPT and PHP.
+I am a full stack web developer, I develop with HTML CSS JAVASCRIPT, REACT and PHP.
 
 I'm always excited to take on new projects as it enables me deliver my proficiency in turning ideas into workable and productive whole. 
 
@@ -121,7 +121,7 @@ From designs to markup, server side structuring and functionalities I ensure no 
 
 Lest I forget to say I enjoy reading a lot and would be glad to get more recommendations on books you got busted on.
 
-I hope I kept you hooked on my profile enough to convince you for the deal.
+I hope I kept you hooked on enough to convince you for the deal.
 
 Warm regards.
 
