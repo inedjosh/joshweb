@@ -18,7 +18,7 @@
 		<div class="main-container">
 			
 			<div class="greeting-wrapper" style="position:relative;">
-			<div class="alert alert-div"><?php echo $success ; ?></div>
+
 		
 				<h1>Hey, I'm Inedu Joshua</h1>
 			</div>
@@ -126,7 +126,7 @@
 			<a href=""></a>
 			<h5 class="upper center">Get In Touch</h5>
 
-			<form id="contact-form" method="POST" action="process.php">
+			<form id="contact-form" method="POST" action="">
 				<a name="contact"></a>
 
 				<label>Name</label>
