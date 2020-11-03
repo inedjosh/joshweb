@@ -63,7 +63,7 @@
 					</div>
 					<div id="preview-shadow">
 						<h6 class="center upper">welcome to my world of tech</h6>
-						<p class="text_home_arrange">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nam amet rem ad dolore magnam Lorem ipsum dolor sit amet. </p>
+						<p class="it's my world of seamless possibilities where everything is possible. </p>
 					</div>
 				</div>
 		
@@ -106,8 +106,26 @@
 				
 				<div class="social-links ">
 				<h6 class="upper center">About me</h6>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate laboriosam nostrum, quis magnam esse quasi voluptates aspernatur debitis aliquid delectus dolorem odio sed hic recusandae blanditiis ipsum ea iste dolor accusantium, soluta omnis id cumque praesentium! Qui consectetur sit iure vitae voluptatem. Nisi quidem magnam maiores eius, eum vero.
-					</p>
+					<p>
+                                          Welcome to my profile, it's indeed a great privilege to have you here out of the many others you could have visited.
+
+I am Inedu Joshua, am a full stack web developer, I develop with HTML CSS JAVASCRIPT and PHP.
+
+I'm always excited to take on new projects as it enables me deliver my proficiency in turning ideas into workable and productive whole. 
+
+I started this journey early 2020 with much learning from books and online classes from tons of developers plus a certification from mimo on HTML, CSS and JAVASCRIPT in April and from Google on digital marketing in 2019, and its really been an exciting ride, taking up jobs has been the most thrilling.
+
+I have good understanding of customer behavior especially as it concerns the web market and has really helped in creating solutions to business needs and even served as milestones to achieving set goals and objectives. In development I ensure I follow a guided process with clients to ensure full satisfaction as well as staying within the obtainable in the sector covering from ideation down to deployment, I ensure my clients are well grounded about the process and convinced also of the innovations in fine tuning their ideas to bring about a complete whole.
+
+From designs to markup, server side structuring and functionalities I ensure no process is left out in this fine tuning process and as well staying withing the set plan to achieve set goals in different ways. I ensure it doesn't just end at producing good looking web apps but productive apps that up convert visiting customers to buying customers and keep them coming by enabling good user experience.
+
+Lest I forget to say I enjoy reading a lot and would be glad to get more recommendations on books you got busted on.
+
+I hope I kept you hooked on my profile enough to convince you for the deal.
+
+Warm regards.
+
+                                         </p>
 				</div>
 			</div>
 
