@@ -130,21 +130,21 @@
 				<a name="contact"></a>
 
 				<label>Name</label>
-				<input class="input-field" type="text" name="name" value="<?php echo &name ?> id="name">
-				<span class="red err"><?php echo $name_err ?></span>
+				<input class="input-field" type="text" name="name"  id="name">
+				
 				<br>
 				<label>Subject</label>
-				<input class="input-field" type="text" name="subject" value="<?php echo & subject ?>  id="subject">
-				<span class="red err"><?php echo $subject_err ?></span>
+				<input class="input-field" type="text" name="subject"  id="subject">
+				
 				<br>
 				<label>Email</label>
-				<input class="input-field" id="email" type="text" value="<?php echo &email ?>  name="email">
-				<span class="red err"><?php echo $email_err ?></span>
+				<input class="input-field" id="email" type="text"  name="email">
+				
 				<br>
 
 				<label>Message</label>
-				<textarea class="input-field" id="msg" value="<?php echo &msg ?>  name="msg"></textarea>
-				<span class="red err"><?php echo $msg_err ?></span>
+				<textarea class="input-field" id="msg"  name="msg"></textarea>
+				
 				<br>
 				<input id="submit-btn" type="submit" name="submit" value="Send">
 			</form>
