@@ -4,35 +4,35 @@ session_start();
 
 if(isset($_POST['submit'])){
 
-    $err = [];
-
-    $name = htmlspecialchars(trim($_POST['name']));
-    $subject = htmlspecialchars(trim($_POST['subject']));
-    $email = htmlspecialchars(trim($_POST['email']));
-    $msg = htmlspecialchars(trim($_POST['msg']));
-
-    if(empty($name) ){
-        $err['name'] = 'name field cannot be empty';
-    }
-    if( empty($subject) ){
-        $err['subject'] = 'subject field cannot be empty';
-    }
-    if( empty($email) ){
-        $err['email'] = 'email field cannot be empty';
-    }else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-                $err['email'] = 'enter a valid email please';
-    }
-    if(empty($msg)){
-        $err['msg'] = 'message field cannot be empty';
-    }
-
-    if(count($err) === 0 ){
-        mail('inedujoshua@gmail.com', $subject, $msg);
-        $_SESSION['sent'] = true;
-         header('location:index.php');
-        echo 123;
+    
+    if(empty($_POST['name'])){
+        $name_err = 'name field cannot be empty';
     }else{
-       $_SESSION['err'] = $err;
-         header('location:index.php');
+     $name = htmlspecialchars(trim($_POST['name']));
+    }
+    if( empty($_POST['subject'])){
+        $subject_err = 'subject field cannot be empty';
+    }else{
+     $subject = htmlspecialchars(trim($_POST['subject']));
+     }
+    if( empty($_POST['subject']) ){
+        $email_err = 'email field cannot be empty';
+    }else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+         $email_err = 'enter a valid email please';
+    }else{
+    $email = htmlspecialchars(trim($_POST['email']));
+    }
+    if(empty($_POST['subject'])){
+        $msg_err = 'message field cannot be empty';
+    }else {
+    $msg = htmlspecialchars(trim($_POST['msg']));
+    }
+
+    if($name_err == '' and $subject_err == '' and $email_err == '' and $msg_err == '' ){
+       $succes = 'Thank you for contacting me!';
+       
+    }else{
+       $_SESSION['err'] = '!Form was not correctly filled';
+       
     }
 }
