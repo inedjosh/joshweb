@@ -1,5 +1,5 @@
 <?php;
-include('process.php');
+require 'process.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -128,7 +128,7 @@ include('process.php');
 			<a href=""></a>
 			<h5 class="upper center">Get In Touch</h5>
 
-			<form id="contact-form" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+			<form id="contact-form" method="POST" action="index.php">
 				<a name="contact"></a>
 
 				<label>Name</label>
