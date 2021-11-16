@@ -28,7 +28,7 @@
 				<div class="nav-wrapper">
 
 					
-					<a href="index.php">
+					<a href="index.html">
 						<div class="dots-wrapper">
 							<div id="dot-1" class="browser-dot"></div>
 							<div id="dot-2" class="browser-dot"></div>
@@ -38,7 +38,7 @@
 					
 
 					<ul id="navigation">
-						<li><a href="contact.php">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
 
 					</ul>
 				</div>
@@ -78,18 +78,24 @@
 				<div class="about-me">
 					<h6 class="center">TOP EXPERTISE</h6>
 
-					<p class="center">Fullstack Developer</p>
+					<p class="center">Front End Web & Mobile Developer</p>
 
 					<div id="skills">
 						<ul>
-							<li>HTML/CSS</li>
-							<li>PHP</li>
+							<li>JAVASCRIPT</li>
+							<li>React JS</li>
+							
 						
 						</ul>
 
 						<ul>
-							<li>JAVASCRIPT</li>
-							<li>REACT</li>
+							<li>React Native</li>
+							<li>Redux</li>
+							
+						</ul>
+						<ul>
+							<li>Git</li>
+							<li>Firebase</li>
 							
 						</ul>
 
@@ -97,7 +103,7 @@
 					<hr>
 					<div class="quote">
 						<p>Do you have a job you'll love me to handle?</p>
-						<a href="<?php echo $row['whatsapp']; ?>" class="btn">let's Chat <i class="fab fa-whatsapp social-icon"></i></a>
+						<a href="https://wa.me/2349064819648" class="btn">let's Chat <i class="fab fa-whatsapp social-icon"></i></a>
 					</div>
 				
 
@@ -107,23 +113,23 @@
 				<div class="social-links ">
 				<h6 class="upper center">About me</h6>
 					<p>
-                                          Welcome to my portfolio, it's indeed a great privilege to have you here out of the many others you could have visited.
+                                         
+						I am a Front End Software developer with industry experience building websites, web applications and mobile applications.
 
-I am a full stack web developer, I develop with HTML CSS JAVASCRIPT, REACT and PHP.
+						I specialize in JavaScript and have professional experience working with React, Firebase and React Native.
+						
+						Having undergone tons of training both onsite and online I have built competence and technical know how how in development and an amazing skill set which include:
+						-CSS Layout / Grids
+						-Mobile Web Performance
+						-Cross-Browser Testing
+						-cross platform Testing
+						-Interaction or User Interface Design
+						-User Experience
+						-State management with redux
+						-Mobile App Performance
+						-Mobile UI
+						
 
-I'm always excited to take on new projects as it enables me deliver my proficiency in turning ideas into workable and productive whole. 
-
-I started this journey early 2020 with much learning from books and online classes from tons of developers plus a certification from mimo on HTML, CSS and JAVASCRIPT in April and from Google on digital marketing in 2019, and its really been an exciting ride, taking up jobs has been the most thrilling.
-
-I have good understanding of customer behavior especially as it concerns the web market and has really helped in creating solutions to business needs and even served as milestones to achieving set goals and objectives. In development I ensure I follow a guided process with clients to ensure full satisfaction as well as staying within the obtainable in the sector covering from ideation down to deployment, I ensure my clients are well grounded about the process and convinced also of the innovations in fine tuning their ideas to bring about a complete whole.
-
-From designs to markup, server side structuring and functionalities I ensure no process is left out in this fine tuning process and as well staying withing the set plan to achieve set goals in different ways. I ensure it doesn't just end at producing good looking web apps but productive apps that up convert visiting customers to buying customers and keep them coming by enabling good user experience.
-
-Lest I forget to say I enjoy reading a lot and would be glad to get more recommendations on books you got busted on.
-
-I hope I kept you hooked on enough to convince you for the deal.
-
-Warm regards.
 
                                          </p>
 				</div>
@@ -131,12 +137,14 @@ Warm regards.
 
 		</div>
 	</section>
-	<!-- <section class="s1">
+	<section class="s1">
 	<div class="main-container">
 		<h5 class="center upper">portfolio</h5>
+		<p class="center ">Check out my amazing projects</p>
+
 		
 	</div>
-	</section> -->
+	</section>
 	
 
 	<section class="s2">
@@ -144,9 +152,9 @@ Warm regards.
 			<a href=""></a>
 			<h5 class="upper center">Get In Touch</h5>
 
-			<form id="contact-form" method="POST" action="">
+			<form id="contact-form" action="https://formcarry.com/s/wlt_l788JRU" method="post">
 				<a name="contact"></a>
-
+				<input type="hidden" name="accessKey" value="55186873-b58b-4675-b023-53ceb1ddc8a3">
 				<label>Name</label>
 				<input class="input-field" type="text" name="name"  id="name">
 				
@@ -161,8 +169,8 @@ Warm regards.
 				<br>
 
 				<label>Message</label>
-				<textarea class="input-field" id="msg"  name="msg"></textarea>
-				
+				<textarea class="input-field" id="message"  name="message"></textarea>
+				<!-- <input type="hidden" name="redirectTo" value="thankyou.html" > -->
 				<br>
 				<input id="submit-btn" type="submit" name="submit" value="Send">
 			</form>
@@ -170,9 +178,17 @@ Warm regards.
 	</section> 
     <footer class="s1 footer">
         
-        <p> &copy; Inedu Joshua 2020</p>
+        <p> &copy; Inedu Joshua 2021</p>
     </footer>
 	<script type="text/javascript" src="main.js"></script>
+	<script>
+
+		let form = document.getElementById('submit-btn')
+		form.addEventListener('msg', () => {
+			location.reload()
+			alert(1)
+		})
+	</script>
 	<script src="form.js"></script>
 </body>
 </html>
