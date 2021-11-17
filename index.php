@@ -137,14 +137,14 @@
 
 		</div>
 	</section>
-	<section class="s1">
+	<!-- <section class="s1">
 	<div class="main-container">
 		<h5 class="center upper">portfolio</h5>
 		<p class="center ">Check out my amazing projects</p>
 
 		
 	</div>
-	</section>
+	</section> -->
 	
 
 	<section class="s2">
