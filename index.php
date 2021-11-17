@@ -28,7 +28,7 @@
 				<div class="nav-wrapper">
 
 					
-					<a href="index.html">
+					<a href="index.php">
 						<div class="dots-wrapper">
 							<div id="dot-1" class="browser-dot"></div>
 							<div id="dot-2" class="browser-dot"></div>
@@ -38,7 +38,7 @@
 					
 
 					<ul id="navigation">
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
 
 					</ul>
 				</div>
